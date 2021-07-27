@@ -53,7 +53,7 @@ def _getNowDate():
 
 def _checkStock():
     status = ''
-    searchResult = _getHTML('Ultra-High Speed SSD: Maximize your play sessions with near instant load times for installed PS5™ games.')
+    searchResult = _getHTML('Sold Out')
     print(searchResult)
     dateTime = _getNowDate()
 
